@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#cajapadre{
+    display: flex;
+    background-color: black;
+}
+#arriba{
+    display: flex;
+    justify-content: left;
+}
+#arriba img{
+height: 30px;
+}
+#barra-nav{
+    display: flex;
+    justify-content: right;
+}
+.fondo{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(fondomedio.jpg) ;
+   background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+.titulo h1{
+    color: white;
+    font-size:90px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.parrafopri{
+    color: white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.parrafosec{
+    color: white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.parrafoter{
+    color: white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+}
+.links{
+    padding: 20px;
+}
+.segundofondo{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.segundotitulo h1{
+    color: white;
+    font-size:70px;
+    display: flex;
+    justify-content: center; 
+}
+.parrafo p{
+    color: white;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+}
+.logo1{
+    display: flex;
+    flex-direction: row;
+}
+.letra1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.logo2{
+    display: flex;
+    flex-direction: row;
+}
+
+.letra2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.tercerfondo{
+   background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.titulo h1{
+    color: white;
+    font-size:80px;
+    display: flex;
+    justify-content: center;
+}
+.parrafosimple p{
+    color: white;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+}
+.linkstwo{
+    padding: 20px;
+}
+
+    
